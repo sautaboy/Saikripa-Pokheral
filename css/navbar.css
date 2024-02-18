@@ -1,0 +1,45 @@
+#navbar {
+    background: #D4E7C5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+    padding: .2vw 1vw;
+    border-radius: 10px;
+}
+
+#navbar a.page-title {
+    font-size: 3vw;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-weight: bold;
+}
+
+#navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#navbar div button {
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #99BC85;
+    color: white;
+    transition: .3s linear;
+    border: 1px solid #999;
+}
+
+#navbar div button:hover {
+    background: hsl(98, 29%, 58%);
+}
