@@ -32,6 +32,18 @@ img {
 
 #main {
     position: relative;
-    padding: 2vw 7vw;
+    padding: 10vw 7vw;
     min-height: 80vh;
+    transition: .3s ease-in-out;
+}
+
+
+#main.blur {
+    filter: blur(2px);
+}
+
+@media (max-width:900px) {
+    #main {
+        padding: 20vw 2vw;
+    }
 }

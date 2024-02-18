@@ -11,33 +11,47 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/footer.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
+
+    <!-- ham -->
+    <i class="ri-menu-line " id="ham"></i>
+
+    <nav id="navbar">
+        <a href="" class="page-title">Page Title</a>
+
+        <ul>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/html/about.html">about us</a>
+            </li>
+            <li>
+                <a href="/html/contact.html">contact us</a>
+            </li>
+            <li>
+                <a href="/html/campaign.html">campaigns</a>
+            </li>
+
+        </ul>
+        <div>
+        <button class="login-signup-button" id="login-button">
+            <a href="/html/login.html">log in</a>
+        </button>
+        <button class="login-signup-button" id="signup-button">
+            <a href="">sign up</a>
+        </button>
+        </div>
+    </nav>
+
+
     <div id="main">
-        <nav id="navbar">
-            <a href="" class="page-title">Page Title</a>
 
-            <ul>
-                <li>
-                    <a href="/">home</a>
-                </li>
-                <li>
-                    <a href="/html/about.html">about us</a>
-                </li>
-                <li>
-                    <a href="/html/contact.html">contact us</a>
-                </li>
-                <li>
-                    <a href="/html/campaign.html">campaigns</a>
-                </li>
-
-            </ul>
-            <div>
-                <button class="login-signup-button" id="login-button">Login</button>
-                <button class="login-signup-button" id="signup-button">Sign up</button>
-            </div>
-        </nav>
 
 
         <div id="hero">
@@ -59,6 +73,8 @@
     <div id="footer">
 
     </div>
+
+    <script src="/script/navbar.js"></script>
 </body>
 
 </html>

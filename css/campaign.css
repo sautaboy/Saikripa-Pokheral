@@ -20,6 +20,7 @@
     overflow: auto;
 }
 
+
 #each-person-container .each-person {
     width: 100%;
     display: flex;
@@ -65,4 +66,38 @@
     gap: 1vw;
     font-size: 1.1vw;
     justify-content: space-between;
+}
+
+@media (max-width:900px) {
+    #each-person-container .each-person {
+
+        min-height: 60vh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    #each-person-container .each-person div:nth-child(1) {
+        height: 30vh;
+        width: 30vh;
+        padding: 1rem;
+    }
+
+    #each-person-container .each-person div:nth-child(2) {
+        font-size: 6vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    #each-person-container .each-person div:nth-child(2) p {
+        font-size: 3vw;
+    }
+
+    #each-person-container .each-person ul li {
+        width: 100%;
+        display: flex;
+        gap: 1vw;
+        font-size: 3vw;
+        justify-content: space-between;
+    }
 }

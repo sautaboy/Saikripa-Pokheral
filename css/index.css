@@ -1,5 +1,4 @@
 #hero {
-    /* background: #dadada; */
     position: relative;
     display: flex;
     align-items: center;
@@ -60,3 +59,17 @@
     background: hsl(98, 29%, 58%);
 }
 
+@media (max-width:900px) {
+    #hero div {
+        width: 100%;
+        gap: 5vh;
+    }
+
+    #hero div h1 {
+        font-size: 12vh;
+    }
+
+    #hero div button {
+        width: 80%;
+    }
+}
