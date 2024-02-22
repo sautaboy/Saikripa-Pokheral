@@ -2,34 +2,31 @@
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    overflow: auto;
+    padding: 2rem 0;
 }
 
-#campaign-status ul {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-    margin: 0 auto;
+table {
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+th,
+td,
+tr {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    text-align: center;
     text-transform: capitalize;
-    font-weight: lighter;
+    text-wrap: nowrap;
 }
 
-#campaign-status ul li {
-    width: calc(100% / 4);
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+td i {
+    cursor: pointer;
+}
+
+th {
     border: 1px solid gray;
-}
-
-#campaign-status ul:nth-child(1) li {
-    border: none;
-}
-
-#campaign-status ul:nth-child(1) {
-    padding: 1vw 0;
-    border-bottom: 1px solid lightgray;
-    font-weight: bold;
 }
 
 @media (max-width:900px) {
