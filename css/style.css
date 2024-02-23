@@ -32,7 +32,7 @@ img {
 
 #main {
     position: relative;
-    padding: 10vw 7vw;
+    padding: 10vw 4vw;
     min-height: 80vh;
     transition: .3s ease-in-out;
 }
